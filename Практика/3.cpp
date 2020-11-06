@@ -77,18 +77,18 @@ void e()
 
 void f()
 {
-    int a,b,c,d, f = 0;
+    int a,b = 0;
         while ((a = getchar()) != 10)
         {
             if (a == 'c')
-                if ((b = getchar()) == 'h')
-                    if ((c = getchar()) == 'a')
-                        if ((d = getchar()) == 'r')
-                            f++;
+                if ((a = getchar()) == 'h')
+                    if ((a = getchar()) == 'a')
+                        if ((a = getchar()) == 'r')
+                            b++;
             if (a == 10)
                 break;
         }
-        printf("char: %d\n", f);
+        printf("char: %d\n", b);
 }
 
 void g()
