@@ -78,7 +78,7 @@ void e()
 void f()
 {
     int a, b = 0;
-    while (a != 10)
+    while ((a = getchar()) != 10)
     {
         if ((a = getchar()) == 'c')
             if ((a = getchar()) == 'h')
