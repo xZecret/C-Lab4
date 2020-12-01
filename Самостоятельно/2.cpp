@@ -3,9 +3,6 @@
 void a()
 {
     int a, b = 0;
-    putchar('>');
-    putchar('>');
-    putchar(' ');
     while ((a = getchar()) != 10)
     {
         if (a < '0' || a > '9')
@@ -23,9 +20,6 @@ void a()
 void b()
 {
     int a, b = 1;
-    putchar('>');
-    putchar('>');
-    putchar(' ');
     while ((a = getchar()) != 10)
     {
         if (a == '.')
